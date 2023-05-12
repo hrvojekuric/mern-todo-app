@@ -1,0 +1,64 @@
+.app {
+    width: clamp(5rem, 40rem, 40rem);
+    background-color: #2F4858;
+    min-height: 30rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.top {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBar {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #DEDEDE;
+    margin-top: 1rem;
+}
+
+input {
+    padding: .5rem;
+    border-radius: 0.3rem;
+    background-color: #DEDEDE;
+    color: #2F4858;
+    border: 1px solid #2F4858;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: .5rem;
+    border-radius: 0.3rem;
+    background-color: #DAF7DC;
+    color: #2F4858;
+    background-color: #DEDEDE;
+    cursor: pointer;
+    border: 1px solid #2F4858;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 300px) {
+    input {
+        width: 100%;
+    }
+}

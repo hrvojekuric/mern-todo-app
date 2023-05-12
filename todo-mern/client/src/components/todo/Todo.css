@@ -1,0 +1,26 @@
+ol {
+    width: 98%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+    border-radius: 0.3rem;
+}
+
+li {
+    width: 100%;
+    padding: 0.2rem;
+    list-style: none;
+    word-break: break-all;
+    color: #2F4858;
+}
+
+.btns {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
